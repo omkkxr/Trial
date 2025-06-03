@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finix Consultancy FZE</title>
+    <link rel="stylesheet" href="../src/main.css">
+    <link rel="stylesheet" href="../src/header.css">
+    <link rel="stylesheet" href="../src/sections.css">
+    <link rel="stylesheet" href="../src/footer.css">
+    <link rel="stylesheet" href="../src/services.css">
+    <link rel="stylesheet" href="../src/feedback.css">
+    <link rel="stylesheet" href="../src/shop.css">
+    <link rel="shortcut icon" href="../src/favicon.ico">
+    <meta name="keywords" content="Consultancy UAE,ISO Certification,IT Solutions,General Trading,Best Consultancy UAE">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Finix Consultancy </h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#about">About Us</a></li>
+                    <li><a href="../index.html#services">Services</a></li>
+                    <li><a href="../index.html#clients">Clients</a></li>
+                    <li><a href="/public/shop.html">E-Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main  Section -->
+   <main>
+    <div class="coming-soon-container">
+        <div class="main-bg-logo">
+            <img src="../src/logo.png" alt="Finix Logo" class="logo-img" />
+        </div>
+        <h2 class="coming-soon-text">Coming Soon...</h2>
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p><strong>Contact Us:</strong></p>
+                <p>Address: Creative Tower, P.O. Box 4422, Fujairah, UAE</p>
+                <p>Phone: +971 56 3838311</p>
+                <p>Email: info@finix-consultancy.com</p>
+            </div>
+            <button class="btn feedback-btn" onclick="toggleFeedback()">Feedback / Query</button>
+        </div>
+    </footer>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="toggleFeedback()">&times;</span>
+            <h2>Feedback / Query</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Your Phone">
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Submit </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../src/script.js"></script>
+</body>
+
+</html>
